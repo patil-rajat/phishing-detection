@@ -2,7 +2,7 @@ from scraper import scrape_urls
 from utils import save_urls_to_csv
 
 def main():
-    page_url = "https://en.wikipedia.org/wiki/Peace_negotiations_in_the_Russian_invasion_of_Ukraine"
+    page_url = "Enter link here"
     urls = scrape_urls(page_url)
     
     if urls:
